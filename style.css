@@ -1,0 +1,276 @@
+HTML{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero-section {
+    position: relative;
+    top: -8;
+    height: 100vh;
+    overflow: hidden;
+  
+}
+
+.hero-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .overlay .container {
+    color: white;
+    
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.product-card img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+.hot-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #D4A373;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.animate-text {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 5s ease-out forwards;
+    animation-duration: 5s;    
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section {
+    background-image: url(pexels-photo-4775226.jpeg);
+    width: auto;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.image-container img {
+    max-width: 100px; /* Adjust this to fit your needs */
+    max-height: 100px; /* Adjust this to fit your needs */
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .card-img-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .card:hover .card-img-overlay {
+    opacity: 1;
+  }
+  .card-title, .card-text {
+    color: white;
+  }
+
+.product-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: transform 0.2s;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+}
+.product-image {
+    max-width: 100%;
+    height: auto;
+}
+.ribbon {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    background-color:#926f42;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    font-weight: bold;
+    transform: rotate(-45deg);
+}
+.product-title {
+    font-size: 18px;
+    margin: 15px 0 10px;
+}
+.product-price {
+    font-size: 16px;
+    color: #666;
+}
+
+.nav-link.active {
+    color: #b07a55 !important;
+  }
+  .nav-link {
+    color: #6c757d !important;
+  }
+  .nav-item {
+    padding: 0 10px;
+  }
+  .navbar {
+    background-color: transparent !important;
+  }
+
+  .section1 {
+    background-image: url(round\ cake.jpeg);
+    width: auto;
+}
+
+  .bordered {
+    border: 10px solid #000; /* Adjust border thickness and color as needed */
+    padding: 10px; /* Optional: Add padding inside the border */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for better visibility */
+  }
+
+  .container2 {
+    padding: 20px; /* Optional: Add padding around the container */
+    border-radius: 20px;
+  }
+
+  .card {
+    border: none;
+    transition: transform 0.2s;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .card-img-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  .card:hover .card-img-overlay {
+    opacity: 1;
+  }
+  .card-title, .card-text {
+    color: white;
+  }
+
+
+  .section4 {
+    background-image: url(tomato4.webp) ;
+    width: 100%;
+    background-position: center !important;
+    position: relative;
+}
+
+.email-search-form {
+  display: flex;
+  max-width: 400px;
+  margin: 50px auto;
+  /* border: 1px solid #ddd; */
+  background: black;
+  border-radius: 9px;
+  align-items: center;
+  justify-content: center;
+  overflow:visible;
+}
+
+.newsletter_field {
+  padding: 20px ;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: black;
+  width: 320px;
+}
+
+.newsletter_btn{
+
+  width: 100px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height:64px;
+  font-size: 20px;
+  font-weight: 400;
+
+}
+
+.email-search-form button {
+
+  padding: 5px ;
+  background-color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s;
+  display: inline-block;
+
+}
+
+.email-search-form button:hover {
+  color: #007bff; /* Change this to your preferred hover color */
+}
+
+
+.footer {
+  padding: 40px 0;
+  background-color: #f8f9fa;
+}
+
+.footer h5 {
+  font-weight: bold;
+}
+
+.footer a {
+  display: block;
+  color: #6c757d;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #343a40;
+}
+
+.footer .social-icons a {
+  font-size: 20px;
+  color: #343a40;
+  margin-right: 15px;
+}
+
+.footer .social-icons a:hover {
+  color: #007bff;
+}
