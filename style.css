@@ -81,7 +81,7 @@ HTML{
     padding: 20px 0;
 }
 .image-container img {
-    max-width: 100px; /* Adjust this to fit your needs */
+    max-width: 100px; 
     max-height: 100px; /* Adjust this to fit your needs */
 }
 
